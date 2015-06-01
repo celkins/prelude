@@ -6,10 +6,10 @@
 
 ;;; Code:
 
-(when (eq system-type 'darwin
+(when (eq system-type 'darwin)
 
         ;; n.b., `brew install coreutils'
-        (setq insert-directory-program (executable-find "gls"))))
+        (setq insert-directory-program (executable-find "gls")))
 
 (provide 'personal-darwin)
 ;;; personal-darwin ends here
