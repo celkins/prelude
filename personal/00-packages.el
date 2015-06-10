@@ -1,1 +1,1 @@
-(prelude-require-packages '(ggtags helm-gtags))
+(prelude-require-packages '(ggtags helm-gtags pyenv-mode))
