@@ -1,3 +1,5 @@
+(prelude-require-packages '(pyenv-mode))
+
 (pyenv-mode)
 
 (defun projectile-pyenv-mode-set ()

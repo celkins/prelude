@@ -8,6 +8,8 @@
 
 ;; http://tuhdo.github.io/c-ide.html
 
+(prelude-require-packages '(ggtags helm-gtags))
+
 (setq
  helm-gtags-ignore-case t
  helm-gtags-auto-update t
